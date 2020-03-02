@@ -1,79 +1,78 @@
 
-body {
-  font-family: 'Lato', sans-serif;
-  color: #716d6e;
+
+/* Навигация */
+.navi2 {
+  margin-left:-150px;
+  margin-right:-150px).
+ 
+
+}
+.nav-wrapper {
+	width: 100%;
+	margin: 0 10% !important;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	z-index: 1000 !important;
+}
+.nav-wrapper ul {
+	margin: 0 auto;
+}
+.nav-wrapper ul li {
+	text-transform: uppercase;
+	padding: 0 3px;
+}
+.nav-wrapper ul li a {
+	color: #000000;
+}
+.nav-wrapper ul li a:hover {
+	color: rgb(218, 152, 12);
 }
 
 
 
-a {
-  color: #ffbf00;
-}
-
-
-
-
-}
-ul a:hover{
-color: #FBC02D !important;
-}
-nav li{
-  text-align: center;
-  text-transform: uppercase;
-}
-li > a:after{
-  content: '';
-  display: block;
-  height: 1.5px;
-  background: #FBC02D;
-  transform: scaleX(0);
-  transition: transform .3s;
-}
-li > a:hover:after{
-  transform: scaleX(1);
-  transition: transform .3s;
-}
-.active{
-  color: #FBC02D !important;
-}
-
-
-
-#teaser {
+/* Тело class="teaser" */
+.teaser {
   height: 600px;
   padding: 60px 0;
-  background-color: #ffbf00;
+  background-color: #ffbf00e8;
   background: -webkit-linear-gradient(top, #ffbf00 0%, #fcd45f 50%, #ffbf00 100%);
   background: linear-gradient(to bottom, #ffbf00 0%, #fcd45f 50%, #ffbf00 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@mainColor', endColorstr='@mainColor', GradientType=0);
 }
 
-#services {
+
+/* Тело class="services" */
+.services {
   margin-top: 165px;
 }
-#services .title {
+.row-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+.services .title {
   margin-bottom: 38px;
 }
-#services h2 {
+.services h2 {
   font-size: 46px;
   font-weight: 900;
   text-align: center;
   margin: 0 0 25px 0;
   padding: 0;
 }
-#services .underline {
+.services .underline {
   height: 4px;
   width: 135px;
   display: block;
   background-color: #ffbf00;
   margin: 0 auto;
 }
-#services .service-box {
+.services .service-box {
   background-color: #ededed;
   padding: 10px;
   margin-bottom: 30px;
 }
-#services .service-box .service-icon {
+.services .service-box .service-icon {
   height: 43px;
   width: 43px;
   background-color: #ffbf00;
@@ -85,25 +84,28 @@ li > a:hover:after{
   float: left;
   margin-right: 15px;
 }
-#services .service-box .service-title {
+.services .service-box .service-title {
   margin: 0;
   padding: 0;
   font-size: 30px;
   font-weight: 900;
   padding-top: 5px;
 }
-#services .service-box .service-content {
+.services .service-box .service-content {
   margin-top: 25px;
   font-size: 18px;
   line-height: 1.7;
 }
 
-#newsletter {
+
+/*       */
+
+.newsletter {
   background-color: #ffbf00;
   margin-top: 90px;
   padding: 90px 0;
 }
-#newsletter .title {
+.newsletter .title {
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
@@ -111,24 +113,24 @@ li > a:hover:after{
   margin: 0;
   padding: 0;
 }
-#newsletter .subtitle {
+.newsletter .subtitle {
   font-size: 18px;
   color: #716d6e;
   display: block;
   font-weight: normal;
   margin-top: 6px;
 }
-#newsletter .newsletter-form {
+.newsletter .newsletter-form {
   width: 62%;
   background-color: #fff;
   height: 55px;
   padding: 9px;
 }
-#newsletter .newsletter-form input {
+.newsletter .newsletter-form input {
   box-shadow: none;
   border: none;
 }
-#newsletter .newsletter-form .button {
+.newsletter .newsletter-form .button {
   background-color: #fff;
   border-radius: 0;
   border: 2px solid #b8b6b6;
@@ -143,24 +145,24 @@ li > a:hover:after{
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-#newsletter .newsletter-form .button:hover {
+.newsletter .newsletter-form .button:hover {
   background-color: #716d6e;
   border: 2px solid #716d6e;
   color: #fff;
 }
-#newsletter .social-icons {
+.newsletter .social-icons {
   width: 38%;
 }
-#newsletter .social-icons ul {
+.newsletter .social-icons ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-#newsletter .social-icons ul li {
+.newsletter .social-icons ul li {
   display: block;
   float: right;
 }
-#newsletter .social-icons ul li a {
+.newsletter .social-icons ul li a {
   height: 55px;
   width: 65px;
   background-color: #ffbf00;
@@ -171,27 +173,27 @@ li > a:hover:after{
   color: #fff;
   font-size: 36px;
 }
-#newsletter .social-icons ul li .facebook {
+.newsletter .social-icons ul li .facebook {
   background-color: #365595;
 }
-#newsletter .social-icons ul li .googleplus {
+.newsletter .social-icons ul li .googleplus {
   background-color: #d41332;
 }
-#newsletter .social-icons ul li .twitter {
+.newsletter .social-icons ul li .twitter {
   background-color: #36a4cf;
 }
-#newsletter .social-icons ul li:hover {
+.newsletter .social-icons ul li:hover {
   opacity: 0.8;
 }
-#newsletter form ::-webkit-input-placeholder {
+.newsletter form ::-webkit-input-placeholder {
   font-size: 16px;
 }
-#newsletter form :-moz-placeholder {
+.newsletter form :-moz-placeholder {
   font-size: 16px;
 }
-#newsletter form ::-moz-placeholder {
+.newsletter form ::-moz-placeholder {
   font-size: 16px;
 }
-#newsletter form :-ms-input-placeholder {
+.newsletter form :-ms-input-placeholder {
   font-size: 16px;
 }
